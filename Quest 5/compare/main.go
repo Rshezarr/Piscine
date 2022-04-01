@@ -1,5 +1,11 @@
 package main
 
+import "fmt"
+
+func main() {
+	fmt.Println(Compare("Hello", "e"))
+}
+
 func Compare(a, b string) int {
 	if a < b {
 		return -1
